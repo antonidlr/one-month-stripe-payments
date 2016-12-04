@@ -13,6 +13,9 @@ gem 'pg', group: :production
 # Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
 
+# Use bootstrap for improving the look and feel
+gem 'bootstrap-sass'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
