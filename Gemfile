@@ -22,6 +22,9 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro gem for securely managing credentials
 gem 'figaro'
 
+# Add letter opener for handling emails in development
+gem 'letter_opener', group: :development
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
