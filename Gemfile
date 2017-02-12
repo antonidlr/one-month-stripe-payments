@@ -25,6 +25,12 @@ gem 'figaro'
 # Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
 
+# Add activeAdmin to generate an admin interface
+gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
+
+# Add devise to support login for activeAdmin
+gem 'devise'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
